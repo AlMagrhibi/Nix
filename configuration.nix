@@ -80,11 +80,10 @@
   # ============================================================
   # HARDWARE - INTEL IRIS XE
   # ============================================================
-  hardware.opengl = {
+  hardware.graphics = {
     enable = true;
     extraPackages = with pkgs; [
       intel-media-driver
-      vaapiIntel
       vaapiVdpau
       libvdpau-va-gl
     ];
@@ -156,7 +155,6 @@
   # ============================================================
   fonts.packages = with pkgs; [
     noto-fonts
-    noto-fonts-arabic
     fira-code
     fira-code-symbols
     (nerdfonts.override { fonts = [ "FiraCode" "JetBrainsMono" ]; })
