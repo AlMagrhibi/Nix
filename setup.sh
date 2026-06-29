@@ -22,7 +22,7 @@ step()  { echo -e "\n${CYAN}═════════════════�
 # ============================================================
 # Config
 # ============================================================
-REPO="https://raw.githubusercontent.com/AlMagrhibi/nixos-config/main"
+REPO="https://raw.githubusercontent.com/AlMagrhibi/Nix/main"
 NIXOS_DIR="/etc/nixos"
 TMP_DIR="/tmp/nixos-config"
 BACKUP_DIR="/etc/nixos/backup-$(date +%Y%m%d-%H%M%S)"
