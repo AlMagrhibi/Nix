@@ -33,7 +33,6 @@
     ripgrep
     fzf
     tmux
-    neovim
     jq
 
     # Notifications
