@@ -25,7 +25,7 @@
     waybar
 
     # File Manager
-    thunar
+    xfce.thunar
 
     # Dev Tools
     python3
